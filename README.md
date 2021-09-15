@@ -23,3 +23,6 @@ Why this long-winded math explanation? 5.2 billion can be aruged to be large eno
 Currently it takes ~17 seconds to simulate a single match for a single play permutation. This fact is a problem because 17 seconds\*5.2 billion ~24.6 million hours which is just a slightly infeasible compute time. To achieve a compute time in the hours or minutes range, the program would need to reduce single match compute by something like 8-9 orders of magnitude. Some of the reduction could be achieved by utilizing an extensive number of parallel threads, but more work needs to be done on single match compute time.
 
 **TLDR: Time complexity bad.**
+
+# Future Work
+* Port game solving to C and see if that makes per match compute time better
